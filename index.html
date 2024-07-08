@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TuniTech</title>
+
+
+  
+  <!-- 
+    - favicon
+  -->
+  <!-- <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml"> -->
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" > -->
+        
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+
+<style> 
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body2{
+    font-family: 'Poppins', sans-serif !important;
+    background: #eff3f8;
+}
+.container2{
+    padding-top: 50px;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+}
+.slick-slide{
+    margin: 0 20px;
+}
+.slick-slide img{
+    width: 100%;
+}
+.slick-slider{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+}
+.slick-list{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-track{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block
+}
+.slick-slide{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+.slick-slide img{
+    display: block;
+}
+.slick-initialized .slick-slide{
+    display: block;
+}
+.copy{
+    padding-top: 250px;
+}
+</style>
+
+  
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">TuniTech</a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+          <a href="#" class="logo">TuniTech</a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Acceuil</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#service" class="navbar-link" data-nav-link>Services</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="team.html" class="navbar-link" data-nav-link>Equipe</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#feature" class="navbar-link" data-nav-link>Features</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#project" class="navbar-link" data-nav-link>Sponsors</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <a class="btn btn-primary has-before has-after">Let’s Talk 👋</a>
+
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="hero">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">
+               TuniTech Boite de <span class="has-before">Marketing Digital</span>
+            </h1>
+
+            <p class="hero-text">
+              Tunitech est votre partenaire de confiance en marketing digital. Nous offrons des services sur mesure pour améliorer votre visibilité en ligne et augmenter votre croissance. De la gestion des réseaux sociaux à la publicité en ligne, en passant par le SEO et la création de contenu, notre équipe d'experts est dédiée à fournir des résultats mesurables et des stratégies innovantes adaptées à vos besoins. Contactez-nous pour transformer votre présence digitale et atteindre vos objectifs commerciaux.
+
+            <div class="wrapper">
+              <a  class="btn btn-primary has-before has-after">Bienvenue</a>
+
+              <button class="hero-btn" aria-label="pixology promo">
+                <ion-icon name="play-outline" aria-hidden="true"></ion-icon>
+
+                <a href="team.html" class="span">Notre Equipe</a>
+
+              </button>
+            </div>
+      <br>
+      <br>
+            <ul class="social-list">
+
+              <li>
+                <a href="#pagefb" class="social-link" style="--color: hsl(241, 77%, 63%);">
+                  <ion-icon name="logo-facebook"></ion-icon>
+
+                  <span class="span">Facebook</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#pageinsta" class="social-link" style="--color: hsl(0, 100%, 50%);">
+                  <ion-icon name="logo-instagram"></ion-icon>
+
+                  <span class="span">Instagram</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#pagelinkedin" class="social-link" style="--color: hsl(203, 89%, 53%);">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+
+                  <span class="span">LinkedIn</span>
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.png" width="794" height="637" alt="hero banner" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="service" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle has-before text-center">Nos Services</p>
+
+          <h2 class="h2 section-title text-center">Gérez votre entreprise avec nos <span class="has-before">meilleur 
+              service</span></h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card" style="--color: 174, 77%, 50%">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service_img1.png" width="30" height="30" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Stratégie Marketing</a>
+                </h3>
+                <!-- <p class="hero-text">
+                  Votre stratégie numérique, alignée sur vos objectifs, comprend un plan d'action clair pour vous guider.
+            </p> -->
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" style="--color: 267, 76%, 57%">
+
+                <div class="card-icon">
+                  <img src="./assets/images/graphic-icon.png" width="30" height="30" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Conception Graphique</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" style="--color: 17, 100%, 68%">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-3.png" width="30" height="30" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Community Management</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" style="--color: 343, 98%, 60%">
+
+                <div class="card-icon">
+                  <img src="./assets/images/deal-icon.png" width="30" height="30" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Formation Sponsoring</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" style="--color: 210, 100%, 53%">
+
+                <div class="card-icon">
+                  <img src="./assets/images/SEA-icon.png" width="30" height="30" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">SEO,SEA</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" style="--color: 157, 89%, 44%">
+
+                <div class="card-icon">
+                  <img src="./assets/images/ecommerce-icon.png" width="30" height="30" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Formation E-commerce</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" style="--color: 52, 98%, 50%">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-7.png" width="30" height="30" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Formation Marketing Digital</a>
+                </h3>
+
+              </div>
+            </li>
+           
+            
+
+         <li style="font-size: 20px; padding: 20px;">
+  <a href="services.html" class="link-card" style="--color: 203, 97%, 75%; padding: 50px; font-size: 20px;">
+    <span class="span">Pour plus de détails</span>
+    <ion-icon name="arrow-forward" aria-hidden="true" style="font-size: 20px;"></ion-icon>
+  </a>
+</li>
+
+            
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" id="feature" aria-label="feature">
+        <div class="container">
+
+          <figure class="feature-banner">
+            <img src="./assets/images/feature-banner.png" width="582" height="585" loading="lazy" alt="feature banner"
+              class="w-100">
+          </figure>
+
+          <div class="feature-content">
+
+            <p class="section-subtitle has-before">Pourquoi Nous Choisir</p>
+
+            <h2 class="h2 section-title">
+              Optez pour notre expertise en marketing digital pour transformer vos idées en <span class="has-before">succès.</span>
+            </h2>
+
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon" style="--color: 174, 77%, 50%">
+                    <ion-icon name="rocket-sharp" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">Processus De Travail Rapide</h3>
+
+                    <p class="card-text">
+                      Nous optimisons chaque projet avec rapidité et efficacité.
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon" style="--color: 241, 77%, 63%;">
+                    <ion-icon name="people-sharp" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">Équipe dédiée</h3>
+
+                    <p class="card-text">
+                      Professionnels expérimentés, engagés pour un service personnalisé et des résultats optimaux.
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon" style="--color: 343, 98%, 60%;">
+                    <ion-icon name="headset-sharp" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">Disponibilité 24/7</h3>
+
+                    <p class="card-text">
+                      Disponible jour et nuit, notre support assure une assistance continue pour répondre à toutes vos demandes.
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      
+        
+        <body2>
+    
+          <div class="container2" id="project" aria-label="project">
+              <!-- <h2 class="text-center font-weight-bold">Nos Clients</h2> -->
+              <h2 class="h2 section-title text-center">Nos <span class="has-before">
+                Clients</span></h2>
+              <section class="customer-logos slider">
+                  <div class="slide"><img src="images/img-1.png" alt="logo"></div>
+                  <div class="slide"><img src="images/img-2.png" alt="logo"></div>
+                  <div class="slide"><img src="images/img-3.png" alt="logo"></div>
+                  <div class="slide"><img src="images/img-4.png" alt="logo"></div>
+                  <div class="slide"><img src="images/img-5.png" alt="logo"></div>
+                  <div class="slide"><img src="images/img-6.png" alt="logo"></div>
+                  <div class="slide"><img src="images/img-7.png" alt="logo"></div>
+                  <div class="slide"><img src="images/img-8.png" alt="logo"></div>
+              </section>
+          </div>
+      
+          <p class="copy text-center font-weight-bold"> </p>
+          
+      
+          <script>
+          
+          $(document).ready(function(){
+              $('.customer-logos').slick({
+                  slidesToShow: 6,
+                  slidesToScroll: 1,
+                  autoplay: true,
+                  autoplaySpeed: 1500,
+                  arrows: false,
+                  dots: false,
+                  pauseOnHover:false,
+                  responsive: [{
+                      breakpoint: 768,
+                      setting: {
+                          slidesToShow:4
+                      }
+                  }, {
+                      breakpoint: 520,
+                      setting: {
+                          slidesToShow: 3
+                      }
+                  }]
+              });
+          });
+      
+          </script>
+      
+      </body2>
+
+     
+
+
+
+
+
+      <!-- 
+        - #NEWSLETTER
+      -->
+
+      <section class="section newsletter has-bg-image" id="news" aria-label="newsletter"
+        style="background-image: url('./assets/images/newsletter-bg.jpg')">
+        <div class="container">
+
+          <figure class="newsletter-banner">
+            <img src="./assets/images/newsletter-banner.png" width="355" height="356" loading="lazy"
+              alt="newsletter banner" class="w-100">
+          </figure>
+
+          <div class="newsletter-content">
+
+            <p class="section-subtitle has-before">Recevez toutes les News</p>
+
+            <h2 class="h2 section-title">Abonnez-vous à la newsletter pour recevoir les dernières offres</h2>
+
+            <form action="" class="newsletter-form">
+              <input type="email" name="email_address" placeholder="Entrer votre mail" required class="email-field">
+
+              <button type="submit" class="btn btn-secondary has-before has-after">
+                <span class="span">Envoyer</span>
+
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </button>
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog" aria-label="blog">
+        <div class="container">
+
+          <p class="section-subtitle text-center has-before">Blog</p>
+
+          <h2 class="h2 section-title text-center">
+          Populaire <span class="has-before">blog</span>
+          </h2>
+
+          <ul class="blog-list">
+
+            <!-- <li>
+              <div class="blog-card large">
+                <figure class="card-banner">
+                  <img src="./assets/images/blog-1.jpg" width="644" height="363" loading="lazy" alt="Godaddy user flow solution..." class="img-cover">
+                </figure>
+            
+                <div class="card-content">
+                  <div class="wrapper">
+                    <a href="#" class="tag">Development</a>
+                    <a href="#" class="publish-date">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                      <span>July 22, 2022</span>
+                    </a>
+                  </div>
+                  <h3>
+                    <a href="#" class="card-title">Godaddy user flow solution...</a>
+                  </h3>
+                  <p class="card-text">
+                    At Pixology we specialize in designing, building, shipping and scaling beautiful.
+                  </p>
+                 
+                  <a href="your-destination-url.html" class="navigate-icon">
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                    Read More
+                  </a>
+                </div>
+              </div>
+            </li> -->
+
+
+            <style> 
+            .blog-card {
+              position: relative; /* Essential for absolute positioning of children */
+              padding: 20px; /* Ensures space inside the card around the content */
+            }
+            
+            .blog-card .card-content {
+              position: relative; /* Required to position the navigate icon absolutely within content */
+              padding-bottom: 50px; /* Adds extra space at the bottom for the navigate icon */
+            }
+            
+            .navigate-icon {
+              position: absolute;
+              bottom: 10px;  /* Adjust distance from bottom */
+              right: 10px;   /* Adjust distance from right */
+              display: flex;
+              align-items: center; /* Aligns the icon and text vertically */
+              font-size: 16px; /* Text size */
+              color: #000; /* Text color */
+              text-decoration: none; /* No underline */
+            }
+            
+            .navigate-icon ion-icon {
+              margin-right: 15px; /* Increases space between icon and text */
+              font-size: 24px; /* Icon size */
+            }
+          
+            
+            </style>
+            
+            
+            
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/blog-2.jpg" width="202" height="162" loading="lazy"
+                    alt="Godaddy user flow solution for every individual" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <a href="#" class="tag">Development</a>
+
+                    <a href="#" class="publish-date">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Juin 14, 2023</span>
+                    </a>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Stratégie Marketing</a>
+                  </h3>
+                  <p class="card-text">
+                    Des stratégies sur mesure pour maximiser votre impact et atteindre vos objectifs commerciaux.
+                  </p>
+                  <a href="blog1.html" class="navigate-icon">
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                    Lire la suite
+                  </a>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/blog-3.png" width="202" height="162" loading="lazy"
+                    alt="Business solution for every individual" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <a href="#" class="tag">Development</a>
+
+                    <a href="#" class="publish-date">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">July 21, 2023</span>
+                    </a>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Contenu Visuel</a>
+                  </h3>
+                  <p class="card-text">
+                    Création de contenus visuels captivants pour engager et inspirer votre audience.
+                  </p>
+                  <a href="blog2.html" class="navigate-icon">
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                    Lire la suite
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/blog-4.png" width="202" height="162" loading="lazy"
+                    alt="How to gain pro experience ar figma update version" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <a href="#" class="tag">Development</a>
+
+                    <a href="#" class="publish-date">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Aout 26, 2023</span>
+                    </a>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">E-Commerce</a>
+                  </h3>
+                  <p class="card-text">
+                    Naviguer dans le paysage du e-commerce en Tunisie.
+                  </p>
+                  <a href="blog3.html" class="navigate-icon">
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                    Lire la suite
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/blog-5.png" width="202" height="162" loading="lazy" 
+                    alt="How to gain pro experience ar figma update version" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <a href="#" class="tag">Development</a>
+
+                    <a href="#" class="publish-date">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Semptembre 15, 2023</span>
+                    </a>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Influence Digital</a>
+                  </h3>
+                  <p class="card-text">
+                    Activation de personnalités pour engager des audiences.
+
+
+                  </p>
+                  <a href="blog4.html" class="navigate-icon">
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                    Lire la suite
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top section">
+
+        <div class="footer-brand">
+
+          <p class="footer-list-title">About TuniTech</p>
+
+          <p class="footer-text">
+            Tunitech booste votre visibilité en ligne avec des services personnalisés : gestion de réseaux, publicité, SEO, et création de contenu. Contactez-nous pour des stratégies efficaces et des résultats mesurables.
+          </p>
+
+          <ul class="social-list">
+
+            
+
+            <li>
+              <a href="#pageinsta" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#fb" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#linkedin" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Liens Utiles</p>
+          </li>
+
+          <li>
+            <a href="team.html" class="footer-link">Contactez-Nous</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="footer-link">Blog</a>
+          </li>
+
+          <li>
+            <a href="#terms" class="footer-link">Terms & Services</a>
+          </li>
+
+        </ul>
+            <ul class="footer-list">
+
+              <li>
+                <p class="footer-list-title">Service</p>
+              </li>
+    
+              <li>
+                <a href="team.html" class="footer-link">Aide</a>
+              </li>
+    
+              <li>
+                <a href="#project" class="footer-link">Partenaires</a>
+              </li>
+    
+              <li>
+                <a href="#suggestions" class="footer-link">Suggestions</a>
+              </li>
+    
+    
+    
+              <li>
+                <a href="#news" class="footer-link">Informations</a>
+              </li>
+    
+            </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Post Instagram</p>
+          </li>
+
+          <li>
+            <ul class="insta-post">
+
+              <li>
+                <div class="insta-card">
+
+                  <figure class="post-banner">
+                    <img src="./assets/images/insta-post-1.jpg" width="77" height="63" loading="lazy"
+                      alt="instagram post" class="img-cover">
+                  </figure>
+
+                  <a href="#" class="card-content">
+                    <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="insta-card">
+
+                  <figure class="post-banner">
+                    <img src="./assets/images/insta-post-2.jpg" width="77" height="63" loading="lazy"
+                      alt="instagram post" class="img-cover">
+                  </figure>
+
+                  <a href="#" class="card-content">
+                    <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="insta-card">
+
+                  <figure class="post-banner">
+                    <img src="./assets/images/insta-post-3.jpg" width="77" height="63" loading="lazy"
+                      alt="instagram post" class="img-cover">
+                  </figure>
+
+                  <a href="#" class="card-content">
+                    <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="insta-card">
+
+                  <figure class="post-banner">
+                    <img src="./assets/images/insta-post-4.jpg" width="77" height="63" loading="lazy"
+                      alt="instagram post" class="img-cover">
+                  </figure>
+
+                  <a href="#" class="card-content">
+                    <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="insta-card">
+
+                  <figure class="post-banner">
+                    <img src="./assets/images/insta-post-5.jpg" width="77" height="63" loading="lazy"
+                      alt="instagram post" class="img-cover">
+                  </figure>
+
+                  <a href="#" class="card-content">
+                    <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="insta-card">
+
+                  <figure class="post-banner">
+                    <img src="./assets/images/insta-post-6.jpg" width="77" height="63" loading="lazy"
+                      alt="instagram post" class="img-cover">
+                  </figure>
+
+                  <a href="#" class="card-content">
+                    <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2023 TuniTech. All Rights Reserved by TuniTech
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#Terms" class="footer-bottom-link">Terms and conditions</a>
+          </li>
+
+          <li>
+            <a href="#Privacy" class="footer-bottom-link">Privacy policy</a>
+          </li>
+
+          <li>
+            <a href="#sign" class="footer-bottom-link">Login / Signup</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn has-after active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+  <!-- <script src="script1.js" defer></script> -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   
+  
+
+  <script>
+    $(document).ready(function() {
+      
+      function filterProjects(category) {
+     
+        $('.project-card').hide();
+        $('.project-card[data-category="' + category + '"]').fadeIn();
+      }
+    
+     
+      filterProjects('website');
+    
+      
+      $('button.filter-btn').click(function() {
+       
+        $('button.filter-btn').removeClass('active');
+        $(this).addClass('active');
+    
+       
+        var category = $(this).attr('data-filter-btn');
+        filterProjects(category);
+      });
+    });
+    </script>
+     -->
+    
+
+
+</body>
+
+</html>
